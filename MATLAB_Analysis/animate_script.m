@@ -2,9 +2,7 @@ close all
 % clear all
 clc
 
-filepath = "C:\Users\Marshall\Documents\N-Body_Simulations\" + ...
-    "General_N-Body_Code\Updated_N-Body_Code_v2\Updated_N-Body_Code_v2\" + ...
-    "EFIELD_DATABASE\1.9\";
+filepath = "EFIELD_DATABASE\1.9\";
 
 state_filename = filepath + "state_323_1ps_2000ps_truncatedNew.bin";
 
