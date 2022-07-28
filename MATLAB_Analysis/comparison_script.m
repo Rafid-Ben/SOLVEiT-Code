@@ -2,9 +2,8 @@ close all
 % clear all
 clc
 
-filepath = "C:\Users\Marshall\Documents\N-Body_Simulations\" + ...
-    "General_N-Body_Code\Updated_N-Body_Code_v2\Updated_N-Body_Code_v2\" + ...
-    "EFIELD_DATABASE\1.9\";
+% Alter filepath as needed to include full path to file
+filepath = "EFIELD_DATABASE\1.9\";
 
 timing_prefix = "Timing_Comparisons\timing_323_1ps_10000ps_";
 % timing_filenames_short = ["direct","0theta_barnesHut",...
