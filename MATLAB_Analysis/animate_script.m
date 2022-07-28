@@ -2,6 +2,7 @@ close all
 % clear all
 clc
 
+% Alter filepath as needed to include full path to file
 filepath = "EFIELD_DATABASE\1.9\";
 
 state_filename = filepath + "state_323_1ps_2000ps_truncatedNew.bin";
