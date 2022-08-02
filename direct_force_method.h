@@ -54,6 +54,8 @@ namespace DirectForceFunction {
         assert(((unsigned long)jpdata & 15) == 0);
         assert(((unsigned long)&ipdata & 15) == 0);
         assert(((unsigned long)&fodata & 15) == 0);
+       
+        /*
 
         XORPS(AX, AX);                      // AX = {0, 0, 0, 0};
         XORPS(AY, AY);                      // AY = {0, 0, 0, 0};
